@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>TodoApp</title>
+    <base href="/">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/assets/css/todomvc-common.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/assets/css/todomvc-app.css') }}">
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    <script src="{{ url_for('static', filename='js/todo-app/src/app/app.module.js') }}"></script>
+
+</head>
+
+<body>
+    <app-root>Loading...</app-root>
+</body>
+
+</html>
